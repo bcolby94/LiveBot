@@ -1,4 +1,3 @@
-'use strict'
 const express = require('express');
 const app = express().enable('trust proxy');
 const http = require('http');
