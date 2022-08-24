@@ -16,7 +16,7 @@ const appID = ``;
 const appSecret = ``;
 const postId = ``;
 const accessToken = ``;
-process.on('uncaughtException', function (err) { // I don't like killing the process when one of my libraries fucks up.
+process.on('uncaughtException', function (err) { // I don't like killing the process when one of my libraries messes up.
   console.log('UNCAUGHT EXCEPTION\n' + err)
 });
 const facebook = new fbsdk.Facebook({
